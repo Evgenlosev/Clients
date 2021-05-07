@@ -33,7 +33,7 @@ public class Controller {
     public void start() {
         try {
             socket = new Socket("localhost", 8189);
-            socket.setSoTimeout(5000);
+            socket.setSoTimeout(120_000);
             in = new DataInputStream(socket.getInputStream());
             out = new DataOutputStream(socket.getOutputStream());
             Thread t = new Thread(() -> {

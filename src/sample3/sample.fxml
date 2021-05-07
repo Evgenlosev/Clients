@@ -1,0 +1,14 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<VBox fx:controller="sample3.Controller3" xmlns:fx="http://javafx.com/fxml" alignment="center">
+    <TextArea fx:id="mainChatArea" VBox.vgrow="ALWAYS"/>
+    <HBox>
+        <TextField fx:id="messageField" HBox.hgrow="ALWAYS" onAction="#sendMessage"/>
+        <Button text="Send" onAction="#sendMessage" />
+        <TextField text="login3" fx:id="loginField" />
+        <TextField text="pass3" fx:id="passField" />
+        <Button text="Auth" onAction="#onAuthClick" />
+    </HBox>
+
+</VBox>

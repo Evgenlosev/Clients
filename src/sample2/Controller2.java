@@ -22,6 +22,7 @@ public class Controller2 {
     TextField passField;
     @FXML
     TextField messageField;
+
     private String myNick;
 
     public void start() {

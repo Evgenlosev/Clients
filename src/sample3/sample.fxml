@@ -1,6 +1,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
+
 <VBox fx:controller="sample3.Controller3" xmlns:fx="http://javafx.com/fxml" alignment="center">
     <TextArea fx:id="mainChatArea" VBox.vgrow="ALWAYS"/>
     <HBox>

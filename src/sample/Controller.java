@@ -30,6 +30,7 @@ public class Controller {
     TextField messageField;
     private String myNick;
 
+
     public void start() {
         try {
             socket = new Socket("localhost", 8189);
